@@ -4,7 +4,7 @@ from random import randint
 def apply_rules(axiom):
   """
   rule_1 - the return value, provided that the condition chr == chr_1 is met,
-  otherwise the axiom iteration is performed
+  otherwise return current axiom value
   """
   return ''.join([rule_1 if chr == chr_1 else chr for chr in axiom])
 
